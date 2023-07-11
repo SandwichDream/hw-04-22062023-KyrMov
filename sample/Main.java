@@ -26,9 +26,13 @@ public class Main {
 
             System.out.println();
 
-            System.out.println("Found Student(s):" + System.lineSeparator() + group.searchStudentByLastName("Smith"));
+            System.out.println("Found Student:" + System.lineSeparator() + group.searchStudentByLastName("Smith"));
 
-            System.out.println(group.removeStudentByID(5));
+            System.out.println();
+
+            if (group.removeStudentByID(5)) {
+                System.out.println("Student has been removed");
+            }
 
             System.out.println();
 
