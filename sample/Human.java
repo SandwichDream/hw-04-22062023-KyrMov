@@ -13,6 +13,10 @@ public class Human {
         this.age = age;
     }
 
+    public Human() {
+
+    }
+
     public String getName() {
         return name;
     }
