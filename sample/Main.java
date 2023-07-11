@@ -26,7 +26,7 @@ public class Main {
 
             System.out.println();
 
-            System.out.println("Found Student:" + System.lineSeparator() + group.searchStudentByLastName("Smith"));
+            System.out.println("Found Student: " + group.searchStudentByLastName("Smith"));
 
             System.out.println();
 
